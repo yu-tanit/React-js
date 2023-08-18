@@ -1,0 +1,105 @@
+/* Card.css */
+
+.card {
+    display: inline-block;
+    width: 100%; 
+    max-width: 35.7rem;
+    margin: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    flex-basis: 654px;
+    height: 200px;
+    margin-left:20px;
+    
+    
+  }
+  
+
+  .custom-heading{
+    width: 617px;
+    height: 75px;
+    top: 71px;
+    left: 78px;
+    font-family: Raleway;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left:20px;
+
+  }
+  
+  .card-container {
+    display: flex;
+    
+
+  }
+
+  .card-subtitle {
+    font-size: 1rem;
+    color: #5F5F5F;
+    margin-bottom: 0.25rem;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 0.1px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 23px;
+    
+
+
+  }
+  
+  .card-image {
+    flex: 1;
+    max-width: 30%;
+    width: 207px;
+    height: 260px;
+    border-radius: 10px 0px 0px 10px;
+
+  }
+  
+  .card-content {
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+  
+  .card-title {
+
+    margin-bottom: 0.00001px;
+    color: #525367;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    top: 214px;
+    
+
+
+  }
+  
+  .card-description {
+    color:#000000;
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 520;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    height:260px;
+
+
+
+  }
+  
